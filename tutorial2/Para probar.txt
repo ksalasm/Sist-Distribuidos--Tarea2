@@ -1,0 +1,93 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <findAllProfesor xmlns="http://service/">
+       </findAllProfesor>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <findProfesor xmlns="http://service">
+       <profesorId>101110111</profesorId>
+     </findProfesor>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <insertProfesor xmlns="http://service">
+		<profesorId>123456</profesorId>
+		<nombre>Rafael Arguedas</nombre>
+		<titulo>Licenciado</titulo>
+		<area>Español</area>
+		<correo>rafa@mail.com</correo>
+		<telefono>88888888</telefono>
+	</insertProfesor >
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <updateProfesor xmlns="http://service">
+		<profesorId>123456</profesorId>
+		<nombre>Rafael Arguedas</nombre>
+		<titulo>Licenciado</titulo>
+		<area>Matematicas</area>
+		<correo>rafa@mail.com</correo>
+		<telefono>88555588</telefono>
+	</updateProfesor >
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <deleteProfesor xmlns="http://service">
+		<profesorId>123456</profesorId>
+	</deleteProfesor >
+   </soap:Body>
+</soap:Envelope>
+
+/********************************************************************/
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <findAllGrupo xmlns="http://service/"></findAllGrupo>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <findGrupo xmlns="http://service">
+       <id>1</id>
+     </findGrupo>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <deleteGrupo xmlns="http://service">
+       <id>1</id>
+     </deleteGrupo>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <findAllXProfesor xmlns="http://service">
+       <id_profesor>101110111</id_profesor>
+     </findAllXProfesor>
+   </soap:Body>
+</soap:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+     <insertGrupo xmlns="http://service">
+		<profesorId>123456</profesorId>
+		<nombre>Rafael Arguedas</nombre>
+		<titulo>Licenciado</titulo>
+		<area>Español</area>
+		<correo>rafa@mail.com</correo>
+		<telefono>88888888</telefono>
+	</insertGrupo >
+   </soap:Body>
+</soap:Envelope>
